@@ -22,11 +22,7 @@ That's nice an' all... But, before reviewing the good stuff – *which we'll do 
 
 #### Don't Get Stuck
 
-The exercises below should be fun. Do your best, but don't stay up all night counting dating candidates – we'll talk about each problem in details in class, demonstrating short, concise solutions.
-
-#### REPL
-
-You might consider finding a JavaScript [REPL](https://nodejs.org/api/repl.html) to practice. Remember, don't get lost in setting up tools – focus on the problems and potential solutions. A simple REPL for JavaScript is your Google Developer Tools (the Console) in Chrome (Cmd-Opt-I on a Mac). You can also create an HTML file, link your JavaScript to it, and print your answers to the console, via `console.log`. Or not, whatever...
+The exercises below should be fun. Do your best, but don't stay up all night counting dating candidates – we'll talk about each problem in class, demonstrating short, concise solutions.
 
 #### Share
 
@@ -107,8 +103,8 @@ Unsurprisingly, she collects her data in a different format.
 
 **Task: Create a function, `transformCustomers`, accepting one argument, `list`, that takes a collection like `newCustomers` and transforms the data into a format compatible with your existing data.**
 
-## Before Class...
+## In Class...
 
-If you failed to complete each problem, don't worry! The point of the exercise is to get acquainted with some of the challenges accompanying working with sets of data, small or large. In class, we'll review the problems again, examining some of your solutions, and then presenting code using list comprehensions that are both shorter and simpler to reason about.
+If you failed to complete each problem, don't worry! The point of the exercise is to get acquainted with some of the challenges accompanying sets of data, small and large. In class, we'll review the problems again, examining a few of your solutions, and then presenting code using list comprehensions that are both shorter and simpler to reason about.
 
 See you then!
