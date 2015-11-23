@@ -44,7 +44,7 @@ Kind of a slow start. But, whatever!
 
 Throughout the lifecycle of your business, it's important to track your growth: to count customers. Working with lists in JavaScript, you'll almost always deal with the `Array` object. Fortunately, there's the `Array.length` property readily available. But, you're adventurous: Can you count the number of items in an `Array` without a counting function?
 
-*Task:* Create a function, `count`, that counts the length of the `customers` var using a standard loop (e.g. without using `size()` or `length`).
+**Task: Create a function, `count`, that counts the length of the `customers` var using a standard loop (e.g. without using `size()` or `length`).**
 
 Keep your answer as concise as possible.
 
