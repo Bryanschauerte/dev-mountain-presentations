@@ -37,7 +37,7 @@ var customers = [
     preferences: {
       weapon_of_choice: "Battle axe",
       epoch: "Ancient",
-      protection: "Round Sheild",
+      protection: "Round Shield",
       personal_description: "People look down on me... literally."
     }
   },
