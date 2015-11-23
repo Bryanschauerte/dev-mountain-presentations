@@ -105,8 +105,6 @@ Unsurprisingly, she collects similiar data in a different format.
 
 *Task:* Create a function, `transformCustomers`, accepting one argument, `list`, that takes a collection like `newCustomers` and transforms the data into a format compatible with your existing data structure.
 
-*Task:* Now, create a function, `mergeCustomers`, accepting two arguments `customers1, customers2` combining the two lists in to one.
-
 ## Before Class...
 
 If you failed to complete each problem, don't worry! The point of the exercise is to get acquainted with some of the challenges accompanying working with sets of data, small or large. In class, we'll review the problems again, examining some of your solutions, and then presenting code using list comprehensions that are both shorter and simpler to reason about.
