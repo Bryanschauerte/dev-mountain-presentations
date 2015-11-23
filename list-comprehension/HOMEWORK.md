@@ -50,33 +50,33 @@ Keep your answer as concise as possible.
 
 ### Problem 2: Men vs. Women
 
-Okay, it is indeed possible to count without `length`. Going forward, feel free to use your new `count` function. Or, if you couldn't complete it, just use `length`.
+Okay, it's indeed possible to count without `length`. Going forward, feel free to use your `count` function. Or, if you couldn't complete it, just use `length`.
 
-Now, being the owner of a dating service, you've heard that men sign up more than women. You might want to check that. In fact, it might even be nice to see two lists, one for men, and one for women.
+Now, you once heard that dating services or more popular with men than women. You might check that. In fact, it might even be nice to see two lists, one for men, and one for women.
 
-*Task:* Create a function `getCustomersByGender`, with two arguments, `(customers, gender)`. Pass it your customer list and a value for the sex, "M" for men and "F" for women. Calling the function with a gender of "M" should return a list of all the men.
+**Task: Create a function `getCustomersByGender`, with two arguments, `(customers, gender)`. Pass it your customer list and a value for the sex, "M" for men, and "F" for women. Calling the function with a gender of "M" should return a list of all men.**
 
 ### Problem 3: Anonymous Women
 
-An old college buddy called. He's now a graduate student at the university completing his disertation in psychology. He heard about your dating service and wonders if he can buy some data, specifically data on the women on your website. You agree, on one condition – you will withhold first and last names. Fine, he says.
+An old college buddy called. He's now a graduate student at the university completing his disertation in psychology. He heard about your dating service and wonders if he can buy your data, specifically data on women. You agree, on one condition – you will withhold first and last names. Fine, he says.
 
-*Task:* Use the `getCustomersByGender` function to first pull a list of women. Then, write a new function, `anonymizeCustomers`, receiving one argument, `customers`, the results of the `getCustomersByGender` function. The `anonymizeCustomers` function should loop through each item in `customers`, removing the `first_name` and `last_name` properties. The return value from the function will be an "anyonymized" list of data.
+**Task: Use the `getCustomersByGender` function to pull a list of women. Then, write a new function, `anonymizeCustomers`, with one argument, `list`. Pass it the results of the `getCustomersByGender` function. The `anonymizeCustomers` function should loop through each item in `list`, removing the `first_name` and `last_name` properties. The return value from the function will be an "anyonymized" list of data.**
 
-You delivered the goods, but wait... you forgot, without names your friend will have no way to identify each record individually. You better provide a unique ID in place of each name.
+You delivered the goods, but wait... you forgot, without names your friend has no way of identifying records individually. You better provide a unique ID in place of names.
 
-*Task:* Edit the `anonymizeCustomers` function so that it attaches a unique identifier to each item called `id`. Let the id be sequential, beginning with the number `1`, `2`, and so on (well, 1 and 2 is where it will stop).
+**Task: Change the `anonymizeCustomers` function so that it attaches a unique identifier to each item, with a property name of `id`. Let the id be sequential, beginning with the number `1`, `2`, and so on (well, 1 and 2 is where it will stop).**
 
 ### Problem 4: We Love Weapons
 
-LARPers identify with their characters, their super powers, and... their weapons. In the weeks following your website's launch, your customers' most frequently requested feature addition is the ability to sort potential mates by preferences. Rather than guessing at the categories, your program should auto-generate a list of weapons from the customer list.
+LARPers identify with their characters, their super powers, and... their weapons. In the weeks following your website's launch, your customers' most frequently requested feature addition is the ability to sort potential mates by preference. Rather than guessing at the categories, your program should auto-generate a list of weapons from the customer list.
 
-*Task:* Create a function, `generateCategoryList`, with two arguments, `customers` and `preference`. The first argument receives your customer list, the second receives a field name representing one of the potential customer preferences (e.g. `weapon_of_choice`, `epoch`, etc.). Your function should return a _distinct_ list of options given the preference type. For example, calling `generateCategoryList(customers, "Protection")`, should return `["Round Shield", "Potions", "Pipe Wrench"]`.
+**Task: Create a function, `generateCategoryList`, with two arguments, `list` and `preference`. The first argument receives your customer list, the second receives a field name representing one of the potential customer preferences (e.g. `weapon_of_choice`, `epoch`, etc.). Your function should return a _distinct_ list of options given the preference type. For example, calling `generateCategoryList(customers, "Protection")`, should return `["Round Shield", "Potions", "Pipe Wrench"]`.**
 
 ### Problem 5: Lead Generation
 
-Recently you've been in discussions with a competitor LARP dating service. New customer signups have been slow – for both of you – so, you've come to an unusual agreement: you want to share new leads. Given the limitations of your programs, the two of you decide to forward each other new leads once a week in batches.
+Recently you've been in discussions with a competitive LARP dating service, BattleBuds.com. New customer signups have been slow, for both of you. So, you've come to an unusual agreement: lead sharing. Given the limitations of your programs, the two of you decide to forward each other new leads once a week in a batch.
 
-Today, you received your first batch of leads from your competitor-friend:
+Today, you received your first batch of leads from your competitor, err... friend:
 
 ```javascript
 var newCustomers = [
@@ -101,11 +101,9 @@ var newCustomers = [
 ];
 ```
 
-Unsurprisingly, she collects similiar data in a different format.
+Unsurprisingly, she collects her data in a different format.
 
-*Task:* Create a function, `transformCustomers`, accepting one argument, `list`, that takes a collection like `newCustomers` and transforms the data into a format compatible with your existing data structure.
-
-*Task:* Now, create a function, `mergeCustomers`, accepting two arguments `customers1, customers2` combining the two lists in to one.
+**Task: Create a function, `transformCustomers`, accepting one argument, `list`, that takes a collection like `newCustomers` and transforms the data into a format compatible with your existing data.**
 
 ## Before Class...
 
