@@ -4,45 +4,45 @@
 
 ## Introduction
 
-This presentation and pre-course work will introduce you to the basics of _list comprehension_, a set of tools and patterns for filtering, transforming, and manipulating _collections_ (objects and arrays).
+The in-class presentation will introduce you to the basics of _list comprehension_, a set of tools and patterns for filtering, transforming, and manipulating _collections_ (objects and arrays).
 
-As a career programmer, prepare yourself to spend... a lot – a lot! – of time slinging objects and arrays around. Learning to manipulate collections will boost your productivity in ways few other habits can. As development fads come and go in the software world, one thing never changes: the need to move data around. That's where this presentation comes in.
+As a career programmer, prepare yourself to spend... a lot – a lot! – of time slinging objects and arrays around. Learning to manipulate collections will boost your productivity in ways few other habits can. As development fads come and go in the software world, one thing never changes: the need to move data around.
 
-To prepare, you'll be opening your very own [bidness](http://www.urbandictionary.com/define.php?term=Bidness): *an online dating service*. Don't worry, a customer list is provided! Follow the exercises below, taking each one in order.
+This pre-course work will help you prepare for class, in which, you'll be opening your very own [bidness](http://www.urbandictionary.com/define.php?term=Bidness): *an online dating service*. Don't worry, a customer list is provided! Follow the exercises below, taking each one in order.
 
-### First, the rules:
+## The rules:
 
 #### Plain Ole JavaScript Only – No Libraries!
 
-JavaScript's ES5 (ECMAScript 5.x) specification, also known as "plain ole JavaScript", does not natively support "list comprehension". In other words, to effectively manipulate lists of data, you have to augment the langauge with a library (or upgrade to ES6) to access the most powerful tools. Fortunately, those libraries exist; they're lightweight (small footprint in KBs), loosely coupled (are used in a wide variety of settings), and most of all, powerful (can solve lots of problems).
+JavaScript's ES5 specification, also known as "plain ole JavaScript", does not natively support "list comprehensions". In other words, to access the most powerful tools, you need to augment JavaScript with a library (or upgrade to ES6). Fortunately, those libraries exist; they're lightweight (small footprint in KBs), loosely coupled (are used in a wide variety of settings), and most of all, powerful (can solve lots of problems).
 
-That's nice an' all... But, before learning the good stuff – *which we will do in class* – it's helpful to _first gain an appreciation of real-world problems related to manipulating lists_. So, just to start, we'll be playing left-handed.
+That's nice an' all... But, before reviewing the good stuff – *which we'll do in class* – it's helpful to _first gain an appreciation of real-world problems related to manipulating lists_. So, to start, we'll play left-handed.
 
 #### Don't Get Stuck
 
-The exercises below should be fun. Do your best and be creative, but don't stay up all night counting dating candidates – we'll talk about each problem in details in class, demonstrating short, concise solutions.
+The exercises below should be fun. Do your best, but don't stay up all night counting dating candidates – we'll talk about each problem in details in class, demonstrating short, concise solutions.
 
 #### REPL
 
-For these problems, you might consider finding a JavaScript [REPL](https://nodejs.org/api/repl.html) to practice. Remember, don't get lost in setting up tools – you'll waste time – focus on the problems and potential solutions. A simple REPL for JavaScript is your Google Developer Tools (the Console) in Chrome (Cmd-Opt-I on a Mac). You can also just create a an HTML file, link your JavaScript to it, and print your answers to console, via `console.log`. Or not, whatever...
+You might consider finding a JavaScript [REPL](https://nodejs.org/api/repl.html) to practice. Remember, don't get lost in setting up tools – focus on the problems and potential solutions. A simple REPL for JavaScript is your Google Developer Tools (the Console) in Chrome (Cmd-Opt-I on a Mac). You can also create an HTML file, link your JavaScript to it, and print your answers to the console, via `console.log`. Or not, whatever...
 
 #### Share
 
-If you have the courage, please post your solutions to a public forum like [Github](http://github.com) where can review them in class. No pressure. Everyone's answers will be different, and it's helpful to contrast the trade-offs of different solutions.
+If you can muster the courage, post your solutions to a public forum like [Github](http://github.com) where we can review them in class. No pressure. Everyone's answers will be different, and it's helpful to compare and contrast their strengths.
 
 ## LARPLove.com
 
-Here we go: You want to start a business, but of course – like most people – you don't know what to make! Driving home from work, however, you notice a friendly-looking group of young people [LARPing](https://en.wikipedia.org/wiki/Live_action_role-playing_game) in the city park. Cool! Now, there's a group who could use a website: online dating for LARPs!
+Here we go: You're starting a business, but of course – like most people – you don't know what to make! Driving home from work, however, you notice a friendly-looking group of young people [LARPing](https://en.wikipedia.org/wiki/Live_action_role-playing_game) in the city park. Cool! Now, there's a group who could use a website: online dating for LARPs!
 
-Now that your website's all set up, larplove.com, and having distributed flyers in to nearby parks, you've acquired your first list of customers:
+Now that your website's all set up, larplove.com, and having distributed flyers in nearby parks, you've acquired your first customers:
 
-[Click here to view the customer list.](./larplove/customers.js)
+[Click here to download the customer list.](./larplove/customers.js)
  
-Kind of a slow start. But it's something!
+Kind of a slow start. But, whatever!
 
 ### Problem 1: Count Your Customers
 
-Throughout the lifecycle of your business, it's important to track your growth: to count customers. Working with lists, you'll almost always be dealing with the `Array` object in JavaScript. Fortunately, there's the `Array.length` property, readily available. But, you're feeling adventurous: Can you count the number of items in an `Array` without a counting function?
+Throughout the lifecycle of your business, it's important to track your growth: to count customers. Working with lists in JavaScript, you'll almost always deal with the `Array` object. Fortunately, there's the `Array.length` property readily available. But, you're adventurous: Can you count the number of items in an `Array` without a counting function?
 
 *Task:* Create a function, `count`, that counts the length of the `customers` var using a standard loop (e.g. without using `size()` or `length`).
 
