@@ -22,7 +22,7 @@ That's nice an' all... But, before reviewing the good stuff – *which we'll do 
 
 #### Don't Get Stuck
 
-The exercises below should be fun. Do your best, but don't stay up all night counting dating candidates – we'll talk about each problem in class, demonstrating short, concise solutions.
+The exercises below should be fun. Do your best, but don't stay up all night counting dating candidates – we'll talk about each problem in class, demonstrating simple, concise solutions.
 
 #### Share
 
