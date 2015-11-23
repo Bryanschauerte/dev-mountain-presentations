@@ -8,7 +8,7 @@ The in-class presentation will introduce you to the basics of _list comprehensio
 
 More specifically, you'll be introduced to [Underscore.js](http://underscorejs.org/).
 
-As a career programmer, prepare yourself to spend... a lot – a lot! – of time slinging objects and arrays around. Learning to manipulate collections will boost your productivity in ways few other habits can. As development fads come and go in the software world, one thing never changes: the need to move data around.
+As a career programmer, prepare yourself to spend... a lot – a lot! – of time slinging objects and arrays. Learning to manipulate collections will boost your productivity in ways few other habits can. As development fads come and go in the software world, one thing never changes: the need to move data around.
 
 This pre-course work will help you prepare for class, in which, you'll be opening your very own [bidness](http://www.urbandictionary.com/define.php?term=Bidness): *an online dating service*. Don't worry, a customer list is provided! Follow the exercises below, taking each one in order.
 
