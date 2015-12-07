@@ -1,4 +1,4 @@
-var customers = [
+module.exports = [
   {
     first_name: "Orrin",
     last_name: "Blick",
