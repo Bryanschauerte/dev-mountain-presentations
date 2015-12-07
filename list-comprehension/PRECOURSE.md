@@ -81,19 +81,19 @@ var newCustomers = [
   {
     "FirstName": "Weston",
     "LastName": "Kutch",
-    Age: 21,
-    Choices: [
-      {type: "weapon", "Dagger"},
-      {type: "protection", "More daggers"}
+    "Age": 21,
+    "Choices": [
+      {type: "weapon", value: "Dagger"},
+      {type: "protection", value: "More daggers"}
     ]
   },
   {
     "FirstName": "Demetris",
     "LastName": "Botsford",
-    Age: 47,
-    Choices: [
-      {type: "weapon", "Mace"},
-      {type: "protection", "Spiked armor"}
+    "Age": 47,
+    "Choices": [
+      {type: "weapon", value: "Mace"},
+      {type: "protection", value: "Spiked armor"}
     ]
   }
 ];
